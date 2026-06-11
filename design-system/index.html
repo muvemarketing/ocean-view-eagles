@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Design System — Ocean View Eagles #4528</title>
+<meta name="description" content="Tokens, atoms, molecules, and organisms used across the Ocean View Eagles #4528 site.">
+<meta name="theme-color" content="#0E2238">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,400..600,0..100,0..1;1,9..144,400..600,0..100,0..1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" href="../assets/logos/logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../assets/css/site.css">
+</head>
+<body>
+<div class="grain" aria-hidden="true"></div>
+
+<header class="nav">
+  <div class="wrap nav__inner">
+    <a href="../index.html" class="nav__brand">
+      <span class="nav__brand-seal"><img src="../assets/logos/logo.svg" alt=""></span>
+      <span>Ocean View Eagles<small>Aerie #4528 · Design System</small></span>
+    </a>
+    <nav class="nav__menu" aria-label="Primary">
+      <a class="nav__link" href="../index.html">Home</a>
+      <a class="nav__link" href="../about.html">About</a>
+      <a class="nav__link" href="../menu.html">Menu</a>
+      <a class="nav__link" href="../events.html">Events</a>
+      <a class="nav__link" href="../causes.html">Causes</a>
+      <a class="nav__link" href="../contact.html">Contact</a>
+    </nav>
+    <a class="nav__cta" href="../contact.html">Join Today</a>
+    <button class="nav__burger" type="button" aria-label="Open menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+  </div>
+</header>
+
+<main>
+  <section class="section section--parchment ds-section" style="padding-top:calc(var(--nav-h) + 48px);">
+    <div class="wrap">
+      <span class="eyebrow">Design System · v1</span>
+      <h1 class="display display--huge" style="margin-top:18px;">
+        Built like a <em class="serif-italic" style="color:var(--red-oxblood);">club charter</em>.
+      </h1>
+      <p class="lede" style="margin-top:22px; max-width:62ch;">
+        Red, white, blue heritage. Fraunces display against Inter body. Rule zero: every atom draws
+        from this page. The site ships from these tokens or not at all.
+      </p>
+    </div>
+  </section>
+
+  <div class="tricolor-divider" aria-hidden="true"><span></span><span></span><span></span></div>
+
+  <!-- TOKENS -->
+  <section class="section ds-section section--paper">
+    <div class="wrap">
+      <h2 class="ds-h2">Tokens · Palette</h2>
+
+      <h3 class="ds-h3">Heritage core</h3>
+      <div class="ds-swatches">
+        <div class="ds-swatch">
+          <div class="ds-swatch__chip" style="background:#B01F2A"></div>
+          <div class="ds-swatch__meta"><span class="ds-swatch__name">Oxblood Red</span><span class="ds-swatch__hex">#B01F2A</span><span class="ds-swatch__ratio">AA 5.7 on paper</span></div>
+        </div>
+        <div class="ds-swatch">
+          <div class="ds-swatch__chip" style="background:#C1272D"></div>
+          <div class="ds-swatch__meta"><span class="ds-swatch__name">Flag Red</span><span class="ds-swatch__hex">#C1272D</span><span class="ds-swatch__ratio">for hover / accents</span></div>
+        </div>
+        <div class="ds-swatch">
+          <div class="ds-swatch__chip" style="background:#2C65A8"></div>
+          <div class="ds-swatch__meta"><span class="ds-swatch__name">Heritage Blue</span><span class="ds-swatch__hex">#2C65A8</span><span class="ds-swatch__ratio">body copy tone</span></div>
+        </div>
+        <div class="ds-swatch">
+          <div class="ds-swatch__chip" style="background:#0E2238"></div>
+          <div class="ds-swatch__meta"><span class="ds-swatch__name">Navy</span><span class="ds-swatch__hex">#0E2238</span><span class="ds-swatch__ratio">heading tone</span></div>
+        </div>
+        <div class="ds-swatch">
+          <div class="ds-swatch__chip" style="background:#060D1A"></div>
+          <div class="ds-swatch__meta"><span class="ds-swatch__name">Ink Blue</span><span class="ds-swatch__hex">#060D1A</span><span class="ds-swatch__ratio">slab / editorial ground</span></div>
+        </div>
+        <div class="ds-swatch">
+          <div class="ds-swatch__chip" style="background:#FFFFFF;border:1px solid var(--line)"></div>
+          <div class="ds-swatch__meta"><span class="ds-swatch__name">Pure White</span><span class="ds-swatch__hex">#FFFFFF</span><span class="ds-swatch__ratio">logo containers</span></div>
+        </div>
+        <div class="ds-swatch">
+          <div class="ds-swatch__chip" style="background:#F6EFDF"></div>
+          <div class="ds-swatch__meta"><span class="ds-swatch__name">Parchment</span><span class="ds-swatch__hex">#F6EFDF</span><span class="ds-swatch__ratio">section accent</span></div>
+        </div>
+        <div class="ds-swatch">
+          <div class="ds-swatch__chip" style="background:#FAF5E6"></div>
+          <div class="ds-swatch__meta"><span class="ds-swatch__name">Paper</span><span class="ds-swatch__hex">#FAF5E6</span><span class="ds-swatch__ratio">default page ground</span></div>
+        </div>
+      </div>
+
+      <h3 class="ds-h3">Accents (never lead)</h3>
+      <div class="ds-swatches">
+        <div class="ds-swatch">
+          <div class="ds-swatch__chip" style="background:#B8862E"></div>
+          <div class="ds-swatch__meta"><span class="ds-swatch__name">Brass</span><span class="ds-swatch__hex">#B8862E</span><span class="ds-swatch__ratio">dividers on navy</span></div>
+        </div>
+        <div class="ds-swatch">
+          <div class="ds-swatch__chip" style="background:#D4A857"></div>
+          <div class="ds-swatch__meta"><span class="ds-swatch__name">Gold Soft</span><span class="ds-swatch__hex">#D4A857</span><span class="ds-swatch__ratio">AA on ink, eyebrow on dark</span></div>
+        </div>
+        <div class="ds-swatch">
+          <div class="ds-swatch__chip" style="background:#6F4A13"></div>
+          <div class="ds-swatch__meta"><span class="ds-swatch__name">Gold Deep</span><span class="ds-swatch__hex">#6F4A13</span><span class="ds-swatch__ratio">AA ≥ 5.0 on paper</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TYPE -->
+  <section class="section ds-section section--parchment">
+    <div class="wrap">
+      <h2 class="ds-h2">Tokens · Typography</h2>
+      <p class="body-sm" style="margin-bottom:18px;">Fraunces (variable display) · Inter (body). opsz + SOFT axes used for italic accents.</p>
+
+      <div class="ds-type-specimen">
+        <div class="display display--mega">Aerie</div>
+        <small>display-mega · 4.4–10rem · Fraunces 500</small>
+      </div>
+      <div class="ds-type-specimen">
+        <div class="display display--huge">People Helping People.</div>
+        <small>display-huge · 3.6–7rem · Fraunces 500</small>
+      </div>
+      <div class="ds-type-specimen">
+        <div class="display display--large">Ocean View, Delaware</div>
+        <small>display-large · 2.8–4.8rem</small>
+      </div>
+      <div class="ds-type-specimen">
+        <div class="display display--medium serif-italic" style="font-style:italic;">Since 1898 — Aerie #4528.</div>
+        <small>display-medium + italic · 2.1–3.2rem</small>
+      </div>
+      <div class="ds-type-specimen">
+        <div class="lede">A vibrant hub for fellowship, service, and fundraising on the Sussex County coast.</div>
+        <small>lede · 1.1–1.28rem</small>
+      </div>
+      <div class="ds-type-specimen">
+        <span class="eyebrow">Since 1898 · Aerie #4528</span>
+        <small style="margin-top:14px;">eyebrow · Inter 600 · .22em tracking</small>
+      </div>
+    </div>
+  </section>
+
+  <!-- ATOMS -->
+  <section class="section ds-section section--paper">
+    <div class="wrap">
+      <h2 class="ds-h2">Atoms</h2>
+
+      <h3 class="ds-h3">Buttons</h3>
+      <div class="ds-row">
+        <a class="btn btn--primary" href="#">Join today</a>
+        <a class="btn btn--secondary" href="#">Read history</a>
+        <a class="btn btn--ghost-dark" href="#">See the menu</a>
+        <a class="btn btn--link" href="#">Meet the club →</a>
+      </div>
+
+      <div class="ds-row" style="margin-top:16px; padding:24px; background:var(--blue-navy); border-radius:4px;">
+        <a class="btn btn--primary" href="#">Join today</a>
+        <a class="btn btn--ghost-light" href="#">Download members' guide</a>
+      </div>
+
+      <h3 class="ds-h3">Pills / tags</h3>
+      <div class="ds-row">
+        <span class="pill">Since 1898</span>
+        <span class="pill pill--blue">Aerie #4528</span>
+        <span class="pill pill--gold">Sussex County</span>
+        <span class="pill pill--solid-red">Thursday cheesesteak</span>
+        <span class="pill pill--solid-blue">Saturday entertainment</span>
+        <span class="pill pill--solid-navy">Pit beef is here</span>
+      </div>
+
+      <h3 class="ds-h3">Form fields</h3>
+      <div style="max-width:460px;">
+        <div class="form">
+          <div class="form__row">
+            <label class="form__label" for="ds-name">Name</label>
+            <input class="form__input" id="ds-name" placeholder="First + last">
+          </div>
+          <div class="form__row">
+            <label class="form__label" for="ds-msg">Message</label>
+            <textarea class="form__textarea" id="ds-msg" placeholder="How did you hear about us?"></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MOLECULES -->
+  <section class="section ds-section section--parchment">
+    <div class="wrap">
+      <h2 class="ds-h2">Molecules</h2>
+
+      <h3 class="ds-h3">Cards</h3>
+      <div class="ds-card-demo">
+        <article class="card">
+          <div class="card__media"><img src="../assets/photos/live-music.jpg" alt="Live music on Saturday night"></div>
+          <div class="card__body">
+            <span class="eyebrow">Saturdays</span>
+            <h3 class="card__title">Live music nights</h3>
+            <p class="card__copy">Acoustic sets to lively bands — local talent in rotation.</p>
+            <div class="card__foot"><a class="btn btn--link" href="#">What's on →</a></div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card__media"><img src="../assets/photos/eagles-nest.jpg" alt="Eagles' Nest bar"></div>
+          <div class="card__body">
+            <span class="eyebrow">Always open</span>
+            <h3 class="card__title">Eagles' Nest bar</h3>
+            <p class="card__copy">Cold drink, sandwich, and a seat with the regulars.</p>
+            <div class="card__foot"><a class="btn btn--link" href="#">Hours →</a></div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card__media"><img src="../assets/photos/our-fundraiser.jpg" alt="O.U.R. fundraiser"></div>
+          <div class="card__body">
+            <span class="eyebrow">Giving back</span>
+            <h3 class="card__title">Cause fundraisers</h3>
+            <p class="card__copy">From auctions to cookouts — proceeds always to a partner.</p>
+            <div class="card__foot"><a class="btn btn--link" href="#">Causes →</a></div>
+          </div>
+        </article>
+      </div>
+
+      <h3 class="ds-h3">Cause card (partner logo + relevance)</h3>
+      <div class="ds-card-demo">
+        <article class="cause">
+          <div class="cause__logo cause__logo--paper"><img src="../assets/logos/causes/folds-of-honor.png" alt="Folds of Honor"></div>
+          <div class="cause__body">
+            <h3 class="cause__title">Folds of Honor</h3>
+            <p class="cause__copy">Scholarships for the spouses and children of America's fallen and disabled service members.</p>
+            <a class="cause__link" href="https://foldsofhonor.org" target="_blank" rel="noopener">Visit partner →</a>
+          </div>
+        </article>
+        <article class="cause">
+          <div class="cause__logo cause__logo--paper"><img src="../assets/logos/causes/our-rescue.svg" alt="Our Rescue (O.U.R.)"></div>
+          <div class="cause__body">
+            <h3 class="cause__title">Our Rescue (O.U.R.)</h3>
+            <p class="cause__copy">Combatting human trafficking and supporting survivors through operations and prevention.</p>
+            <a class="cause__link" href="https://ourrescue.org" target="_blank" rel="noopener">Visit partner →</a>
+          </div>
+        </article>
+      </div>
+
+      <h3 class="ds-h3">Stat tile (verifiable only — never placeholder zeros)</h3>
+      <div class="stats">
+        <div class="stat"><div class="stat__value">Est. 2009</div><div class="stat__label">Chartered</div></div>
+        <div class="stat"><div class="stat__value">Summer 2013</div><div class="stat__label">At 35083 Atlantic Ave</div></div>
+        <div class="stat"><div class="stat__value">7</div><div class="stat__label">Partner causes supported</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ORGANISMS -->
+  <section class="section ds-section section--paper">
+    <div class="wrap">
+      <h2 class="ds-h2">Organisms · Motto marquee</h2>
+      <p class="body-sm" style="margin-bottom:20px;">Huge serif running mark. Paused on hover. Tricolor bar above/below on heritage pages.</p>
+    </div>
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Since 1898</span><span>Aerie #4528</span><span>Ocean View, Delaware</span>
+        <span>People Helping People</span><span>Since 1898</span><span>Aerie #4528</span>
+        <span>Ocean View, Delaware</span><span>People Helping People</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="heritage">
+    <div class="wrap heritage__grid" style="padding-top:var(--py-md); padding-bottom:var(--py-md);">
+      <div class="heritage__col">
+        <h3>Order founded</h3>
+        <div class="heritage__roman">MDCCCXCVIII</div>
+        <div class="heritage__arabic">1898 — Fraternal Order of Eagles.</div>
+      </div>
+      <div class="heritage__col">
+        <h3>Ocean View Aerie chartered</h3>
+        <div class="heritage__roman">MMIX</div>
+        <div class="heritage__arabic">2009 — Aerie #4528, Delaware.</div>
+        <div class="heritage__rule"></div>
+        <p class="heritage__body">New clubhouse opened at 35083 Atlantic Ave in Summer 2013 and has been the home of Aerie #4528 ever since.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="quote-slab">
+    <div class="wrap quote-slab__inner">
+      <div>
+        <span class="quote-slab__meta">Member testimonial</span>
+        <div class="quote-slab__mark">"</div>
+      </div>
+      <div>
+        <p class="quote-slab__body">Being a member feels like finding a second home. The warm atmosphere, friendly faces, and a real sense of community make every visit special.</p>
+        <p class="quote-slab__attr"><strong>Matt W.</strong> — Member · 02.02.21</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--parchment">
+    <div class="wrap">
+      <h2 class="ds-h2">Organisms · Seven-tile mosaic</h2>
+    </div>
+    <div class="wrap wrap--wide">
+      <div class="mosaic">
+        <a class="mosaic__tile" href="#"><img src="../assets/photos/hero-crowd.jpg" alt=""><span class="mosaic__cap">Our members</span></a>
+        <a class="mosaic__tile" href="#"><img src="../assets/photos/eagles-nest.jpg" alt=""><span class="mosaic__cap">Eagles' Nest bar</span></a>
+        <a class="mosaic__tile" href="#"><img src="../assets/photos/live-music.jpg" alt=""><span class="mosaic__cap">Live music</span></a>
+        <a class="mosaic__tile" href="#"><img src="../assets/photos/dart-board.jpg" alt=""><span class="mosaic__cap">Darts</span></a>
+        <a class="mosaic__tile" href="#"><img src="../assets/photos/pool-table.jpg" alt=""><span class="mosaic__cap">Pool</span></a>
+        <a class="mosaic__tile" href="#"><img src="../assets/photos/our-fundraiser.jpg" alt=""><span class="mosaic__cap">O.U.R. fundraiser</span></a>
+        <a class="mosaic__tile" href="#"><img src="../assets/photos/crew-2017.jpg" alt=""><span class="mosaic__cap">Crew, 2017</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="seal">
+    <div class="wrap seal__inner">
+      <span class="eyebrow">The Order</span>
+      <img class="seal__mark" src="../assets/logos/logo.svg" alt="FOE shield">
+      <p class="seal__caption">Aerie #4528 · Ocean View · Delaware</p>
+      <h3 class="seal__motto">People <em>helping</em> people.</h3>
+      <div class="seal__stars" aria-hidden="true"><span>★</span><span>★</span><span>★</span></div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot__grid">
+      <div class="foot__brand">
+        <div class="foot__brand-row">
+          <span class="foot__brand-seal"><img src="../assets/logos/logo.svg" alt=""></span>
+          <span class="foot__brand-name">Ocean View Eagles<small>Aerie #4528 · Est. 2009</small></span>
+        </div>
+        <p class="foot__tag">People helping people.</p>
+      </div>
+      <div>
+        <h4 class="foot__h">Visit</h4>
+        <ul class="foot__list">
+          <li><a href="https://maps.google.com/?q=35083+Atlantic+Ave+Ocean+View+DE" target="_blank" rel="noopener">35083 Atlantic Ave<br>Ocean View, DE</a></li>
+          <li>Sun–Thu · 11 AM – 10 PM</li>
+          <li>Fri–Sat · 11 AM – 11 PM</li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="foot__h">Club</h4>
+        <ul class="foot__list">
+          <li><a href="../about.html">About</a></li>
+          <li><a href="../history.html">History</a></li>
+          <li><a href="../menu.html">Menu</a></li>
+          <li><a href="../events.html">Events</a></li>
+          <li><a href="../causes.html">Causes</a></li>
+          <li><a href="../faq.html">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="foot__contact">
+        <h4 class="foot__h">Contact</h4>
+        <a href="tel:+13026162937">(302) 616-2937</a>
+        <a href="mailto:info@oceanviewfoe.com">info@oceanviewfoe.com</a>
+        <a href="mailto:foemembership@gmail.com">foemembership@gmail.com<br><span style="font-size:.72rem; letter-spacing:.14em; color:var(--gold-soft);">Membership · Brandy</span></a>
+      </div>
+    </div>
+    <div class="foot__legal">
+      <span>© <span data-year>2026</span> Ocean View Eagles FOE #4528. All rights reserved.</span>
+      <span>Fraternal Order of Eagles · Chartered 1898</span>
+    </div>
+  </div>
+</footer>
+
+<script src="../assets/js/site.js"></script>
+</body>
+</html>

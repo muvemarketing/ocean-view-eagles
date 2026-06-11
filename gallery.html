@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gallery · Ocean View Eagles #4528</title>
+<meta name="description" content="A photo walk through the Aerie — the clubhouse, Eagles' Nest bar, live music, fundraisers, pool, darts, and the folks who make Aerie #4528 feel like home.">
+<meta name="theme-color" content="#0E2238">
+<meta property="og:title" content="Gallery · Ocean View Eagles #4528">
+<meta property="og:description" content="Photos from the Aerie — members, events, fundraisers, and the clubhouse itself.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ove.muvebuilds.com/gallery.html">
+<meta property="og:image" content="https://ove.muvebuilds.com/assets/og/og-home.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Gallery · Ocean View Eagles #4528">
+<meta name="twitter:description" content="Photos from the Aerie — members, events, fundraisers, the clubhouse.">
+<meta name="twitter:image" content="https://ove.muvebuilds.com/assets/og/og-home.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,400..600,0..100,0..1;1,9..144,400..600,0..100,0..1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" href="assets/logos/logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/site.css?v=17">
+<style>
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  .photo-grid figure {
+    margin: 0;
+    aspect-ratio: 4/5;
+    overflow: hidden;
+    position: relative;
+    background: var(--blue-navy);
+  }
+  .photo-grid figure img {
+    width: 100%; height: 100%;
+    object-fit: cover;
+    transition: transform 900ms cubic-bezier(.2,.7,.3,1);
+  }
+  .photo-grid figure:hover img { transform: scale(1.05); }
+  .photo-grid figcaption {
+    position: absolute; left: 12px; right: 12px; bottom: 12px;
+    padding: 8px 12px;
+    background: rgba(6, 13, 26, .72);
+    color: var(--paper);
+    font-size: .72rem;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    font-weight: 600;
+    backdrop-filter: blur(4px);
+    opacity: 0; transform: translateY(6px);
+    transition: opacity 280ms, transform 280ms;
+  }
+  .photo-grid figure:hover figcaption { opacity: 1; transform: translateY(0); }
+  .photo-grid figure.wide { grid-column: span 2; aspect-ratio: 8/5; }
+  .photo-grid figure.tall { grid-row: span 2; aspect-ratio: 4/10; }
+  @media (max-width: 820px) {
+    .photo-grid { grid-template-columns: repeat(2, 1fr); }
+    .photo-grid figure.wide { grid-column: span 2; aspect-ratio: 8/5; }
+    .photo-grid figure.tall { grid-row: auto; aspect-ratio: 4/5; }
+  }
+</style>
+</head>
+<body>
+<div class="grain" aria-hidden="true"></div>
+
+<header class="nav">
+  <div class="wrap nav__inner">
+    <a href="index.html" class="nav__brand">
+      <span class="nav__brand-seal"><img src="assets/logos/logo.svg" alt=""></span>
+      <span>Ocean View Eagles<small>Aerie #4528 · Est. 2009</small></span>
+    </a>
+    <nav class="nav__menu" aria-label="Primary">
+      <a class="nav__link" href="index.html">Home</a>
+      <a class="nav__link" href="about.html">About</a>
+      <a class="nav__link" href="history.html">History</a>
+      <a class="nav__link" href="menu.html">Menu</a>
+      <a class="nav__link" href="events.html">Events</a>
+      <a class="nav__link" href="causes.html">Causes</a>
+      <a class="nav__link" href="gallery.html">Gallery</a>
+      <a class="nav__link" href="contact.html">Contact</a>
+    </nav>
+    <a class="nav__cta" href="contact.html">Join today</a>
+    <button class="nav__burger" type="button" aria-label="Open menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+  </div>
+</header>
+
+<section class="page-hero page-hero--short">
+  <div class="page-hero__img-wrap"><img class="page-hero__img" src="assets/photos/hero-crowd.jpg" alt=""></div>
+  <div class="wrap page-hero__inner">
+    <span class="eyebrow eyebrow--on-dark">Aerie life</span>
+    <h1 class="page-hero__title">Inside the <em>clubhouse.</em></h1>
+    <p class="page-hero__sub">A walk-through of Aerie #4528 — the people, the events, the fundraisers, and the Saturdays that make the place feel like home.</p>
+  </div>
+</section>
+
+<section class="section section--paper">
+  <div class="wrap wrap--wide">
+    <div class="photo-grid fade-up">
+      <figure class="wide"><img src="assets/photos/hero-crowd.jpg" alt="Members packed in at the clubhouse"><figcaption>Members at the clubhouse</figcaption></figure>
+      <figure><img src="assets/photos/eagles-nest.jpg" alt="Eagles' Nest bar"><figcaption>Eagles' Nest</figcaption></figure>
+      <figure><img src="assets/photos/live-music.jpg" alt="Saturday live music"><figcaption>Saturday live music</figcaption></figure>
+
+      <figure><img src="assets/photos/greetings-eagles.jpg" alt="Club greeting photo"><figcaption>Greetings, Eagles</figcaption></figure>
+      <figure><img src="assets/photos/our-fundraiser.jpg" alt="O.U.R. fundraiser"><figcaption>O.U.R. fundraiser</figcaption></figure>
+      <figure class="wide"><img src="assets/photos/crew-2017.jpg" alt="Crew, 2017"><figcaption>Crew · 2017</figcaption></figure>
+
+      <figure><img src="assets/photos/dart-board.jpg" alt="Dart boards"><figcaption>Darts</figcaption></figure>
+      <figure><img src="assets/photos/pool-table.jpg" alt="Pool table"><figcaption>Pool table</figcaption></figure>
+      <figure><img src="assets/photos/rally-brian.jpg" alt="Rallying for Brian fundraiser"><figcaption>Rally · for Brian</figcaption></figure>
+      <figure><img src="assets/photos/worthy-president-eric.jpg" alt="Worthy President Eric B. Davis"><figcaption>Worthy President Eric B. Davis</figcaption></figure>
+
+      <figure><img src="assets/photos/club-gathering.jpg" alt="Gathering at the clubhouse"><figcaption>Club gathering</figcaption></figure>
+      <figure><img src="assets/photos/event-1.jpg" alt="Event photo"><figcaption>A night at the Aerie</figcaption></figure>
+      <figure><img src="assets/photos/event-2.jpg" alt="Event photo"><figcaption>Members + friends</figcaption></figure>
+      <figure><img src="assets/photos/event-3.jpg" alt="Event photo"><figcaption>Clubhouse event</figcaption></figure>
+
+      <figure><img src="assets/photos/event-4.jpg" alt="Event photo"><figcaption>Behind the bar</figcaption></figure>
+      <figure><img src="assets/photos/event-5.jpg" alt="Event photo"><figcaption>Gathered around</figcaption></figure>
+      <figure><img src="assets/photos/event-6.jpg" alt="Event photo"><figcaption>Members' night</figcaption></figure>
+      <figure><img src="assets/photos/event-7.jpg" alt="Event photo"><figcaption>Evening crowd</figcaption></figure>
+
+      <figure><img src="assets/photos/gallery-1.jpg" alt="Gallery photo"><figcaption>Sussex coast</figcaption></figure>
+      <figure><img src="assets/photos/gallery-2.jpg" alt="Gallery photo"><figcaption>Aerie moments</figcaption></figure>
+      <figure><img src="assets/photos/gallery-3.png" alt="Gallery photo"><figcaption>Aerie moments</figcaption></figure>
+      <figure><img src="assets/photos/gallery-4.jpg" alt="Gallery photo"><figcaption>Aerie moments</figcaption></figure>
+
+      <figure><img src="assets/photos/gallery-5.jpg" alt="Gallery photo"><figcaption>Aerie moments</figcaption></figure>
+      <figure><img src="assets/photos/gallery-6.jpg" alt="Gallery photo"><figcaption>Aerie moments</figcaption></figure>
+      <figure><img src="assets/photos/gallery-7.jpg" alt="Gallery photo"><figcaption>Aerie moments</figcaption></figure>
+      <figure><img src="assets/photos/gallery-8.jpg" alt="Gallery photo"><figcaption>Aerie moments</figcaption></figure>
+
+      <figure><img src="assets/photos/gallery-9.jpg" alt="Gallery photo"><figcaption>Aerie moments</figcaption></figure>
+      <figure><img src="assets/photos/gallery-10.jpg" alt="Gallery photo"><figcaption>Aerie moments</figcaption></figure>
+      <figure><img src="assets/photos/join-cta.jpg" alt="Members — come join us"><figcaption>Come join us</figcaption></figure>
+      <figure><img src="assets/photos/hero-stop-trafficking.png" alt="Stop human trafficking — O.U.R. event"><figcaption>Stop human trafficking</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="section--red section">
+  <div class="wrap g2" style="align-items:center;">
+    <div class="fade-up">
+      <span class="eyebrow" style="color:var(--paper);">Want to be in the next one?</span>
+      <h2 class="display display--large" style="color:var(--paper); margin-top:20px;">
+        Come join the <em class="serif-italic" style="color:var(--parchment);">crowd.</em>
+      </h2>
+    </div>
+    <div class="fade-up fade-up-d-200">
+      <p class="lede" style="color:rgba(246,239,223,.9);">The Aerie is always adding new faces. The best time to stop in is Saturday evening — live music, Eagles' Nest, and the fullest room of the week.</p>
+      <div style="margin-top:24px; display:flex; flex-wrap:wrap; gap:12px;">
+        <a class="btn btn--ghost-light" href="events.html">This week</a>
+        <a class="btn btn--primary" style="background:var(--paper); color:var(--red-oxblood);" href="contact.html">Become a member</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot__grid">
+      <div class="foot__brand">
+        <div class="foot__brand-row">
+          <span class="foot__brand-seal"><img src="assets/logos/logo.svg" alt=""></span>
+          <span class="foot__brand-name">Ocean View Eagles<small>Aerie #4528 · Est. 2009</small></span>
+        </div>
+        <p class="foot__tag">People helping people.</p>
+      </div>
+      <div>
+        <h4 class="foot__h">Visit</h4>
+        <ul class="foot__list">
+          <li><a href="https://maps.google.com/?q=35083+Atlantic+Ave+Ocean+View+DE" target="_blank" rel="noopener">35083 Atlantic Ave<br>Ocean View, DE 19970</a></li>
+          <li>Sun–Thu · 11 AM – 10 PM</li>
+          <li>Fri–Sat · 11 AM – 11 PM</li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="foot__h">Club</h4>
+        <ul class="foot__list">
+          <li><a href="about.html">About</a></li>
+          <li><a href="history.html">History</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="causes.html">Causes</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="foot__contact">
+        <h4 class="foot__h">Contact</h4>
+        <a href="tel:+13026162937">(302) 616-2937</a>
+        <a href="mailto:info@oceanviewfoe.com">info@oceanviewfoe.com</a>
+        <a href="mailto:foemembership@gmail.com">foemembership@gmail.com<br><span style="font-size:.72rem; letter-spacing:.14em; color:var(--gold-soft);">Membership · Brandy</span></a>
+      </div>
+    </div>
+    <div class="foot__legal">
+      <span>© <span data-year>2026</span> Ocean View Eagles FOE #4528. All rights reserved.</span>
+      <span>Fraternal Order of Eagles · Chartered 1898 · Aerie #4528 since 2009</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/site.js?v=15"></script>
+</body>
+</html>
